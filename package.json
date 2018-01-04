@@ -1,8 +1,13 @@
 {
   "name": "ea-router",
   "version": "1.0.0",
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
+    "build": "babel index.js -o dist.js"
+  },
+  "main": "old.js",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
