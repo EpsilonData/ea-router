@@ -7,7 +7,7 @@ export function getSiteUrl () {
 }
 
 export function getApiUrl () {
-  return `${window.location.protocol}//jada.io/euphoria-api`
+  return `${window.location.protocol}//api.euphoricadventur.es/v1`
 }
 
 export function getEuphoriaUrl (email) {
