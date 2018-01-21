@@ -14,7 +14,7 @@ export function getEuphoriaUrl (email) {
   if (window.location.protocol === 'http:') {
     return `http://localhost:8080/#!/inbound/log-in-email/${email}`
   } else {
-    return `https://euphoricadventur.es/app/index.html#!/inbound/log-in-email/${email}`
+    return `https://euphoricadventur.es/app#!/inbound/log-in-email/${email}`
   }
 }
 
