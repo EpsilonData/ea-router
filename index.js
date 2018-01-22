@@ -23,9 +23,7 @@ export function openEuphoria (email) {
 }
 
 export function openPublisherPlaybook () {
-  window.open(`${getSiteUrl()}/integration-guide`, '_blank')
-  // this guide hasn't been written yet
-  // window.open(`${getSiteUrl()}/publisher-playbook`, '_blank')
+  window.open(`${getSiteUrl()}/publisher-playbook`, '_blank')
 }
 
 export function openIntegrationGuide () {
