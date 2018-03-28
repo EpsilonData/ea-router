@@ -2,19 +2,19 @@ export function getSiteUrl () {
   if (window.location.protocol === 'http:') {
     return 'http://localhost:4444'
   } else {
-    return 'https://euphoricadventur.es'
+    return `${window.location.protocol}//${window.location.hostname}`
   }
 }
 
 export function getApiUrl () {
-  return `${window.location.protocol}//api.euphoricadventur.es/v1`
+  return `${window.location.protocol}//api.${window.location.hostname}/v1`
 }
 
 export function getEuphoriaUrl (email) {
   if (window.location.protocol === 'http:') {
     return `http://localhost:8080/#!/inbound/log-in-email/${email}`
   } else {
-    return `https://euphoricadventur.es/app/index.html#!/inbound/log-in-email/${email}`
+    return `${window.location.protocol}//${window.location.hostname}/app/#!/inbound/log-in-email/${email}`
   }
 }
 
